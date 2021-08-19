@@ -1,0 +1,182 @@
+/*CSS 樣式重置*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-family: 'PingFang TC', 'Microsoft Jenghei', sans-serif;
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+.mb-0 {
+	margin-bottom: 0;
+}
+
+.mb-2 {
+	margin-bottom: 16px;
+}
+
+.mb-6 {
+	margin-bottom: 48px;
+}
+
+.ml-3 {
+	margin-left: 24px;
+}
+
+.pb-1 {
+	padding-bottom: 8px;
+}
+
+.pb-3 {
+	padding-bottom: 24px;
+}
+
+.pb-5 {
+	padding-bottom: 5px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 80px;
+	border-bottom: 2px solid #000;
+	line-height: 106px;
+	padding-top: 36px;
+}
+
+.contentBlock {
+	font-weight: bold;
+	margin-bottom: 72px;
+}
+
+.contentBlock p {
+	padding-bottom: 24px;
+}
+
+.subTitle {
+	font-size: 32px;
+	border-bottom: 1px solid #000;
+	margin-bottom: 16px;
+	padding-bottom: 8px;
+	line-height: 1.2;
+}
+
+.subTitle span {
+	color: #A00404;
+	padding-left: 16px;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.darkBlock {
+    background-color: #415165;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+	padding-top: 24px;
+}
+
+.skills{
+	width: 996px;
+	margin: 0 auto;
+	padding-bottom: 36px;
+	margin-bottom: 72px;
+}
+
+.whiteTitle {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 45px;
+}
+
+.whiteTitle span {
+	color: #fff;
+}
+
+.skillContent {
+	width: 230px;
+	margin: 0 auto;
+	text-align: left;
+	border-left: 1px solid #96A9C4;
+	padding-left: 24px;
+	line-height: 1.5;
+	font-weight: 300;
+}
+
+.works {
+	font-weight: bold;
+	margin-bottom: 72px;
+}
+
+.workContent {
+	border-left: 1px solid #96A9C4;
+	padding-left: 24px;
+	margin-left: 16px;
+}
+
+.workContent p {
+	padding-right: 380px;
+}
+
+.contact {
+	padding-bottom: 36px;
+}
+
+.contact a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.contact a:hover {
+	color: #59d7db;
+}
+
+.contact img:hover {
+	background: #000;
+}
